@@ -28,7 +28,7 @@ export const LEVELS: Level[] = [
     name: 'Bind',
     series: 'moves',
     intro: [
-      'Welcome to learnOwnership. The canvas shows stack bindings on the left and heap cells on the right.',
+      'Welcome to learnRust. The canvas shows stack bindings on the left and heap cells on the right.',
       'Create a `String` binding named `s` holding `hello`.',
       'Try: `let s = String::from("hello");`',
     ],

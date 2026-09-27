@@ -19,7 +19,7 @@ import type { Diagnostic, Level } from '../core/types';
 import { renderMemorySvg } from './canvas';
 import { appendLines, formatDiagnostic } from './terminal';
 
-const STORAGE_INTRO = 'learnOwnership.introSeen';
+const STORAGE_INTRO = 'learnRust.introSeen';
 
 export function mountApp(root: HTMLElement): void {
   let session: Session = bootstrapSession();
@@ -39,7 +39,7 @@ export function mountApp(root: HTMLElement): void {
     bar.innerHTML = `
       <div class="brand">
         <span class="brand-mark">ownership</span>
-        <span class="brand-sub">learnOwnership</span>
+        <span class="brand-sub">learnRust</span>
       </div>
       <nav class="topnav" aria-label="Primary">
         <button type="button" data-act="sandbox">sandbox</button>
@@ -386,7 +386,7 @@ export function mountApp(root: HTMLElement): void {
 
   refresh();
   printMeta([
-    'learnOwnership — interactive Rust memory lab',
+    'learnRust — interactive Rust memory lab',
     'moves · borrowing · lifetimes',
     'type `help` or `levels` to begin',
   ]);

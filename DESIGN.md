@@ -1,18 +1,18 @@
-# DESIGN.md — learnOwnership
+# DESIGN.md — learnRust
 
 Interactive Rust ownership/borrowing visualizer and tutorial, structurally modeled on
 learnGitBranching: sandbox + terminal + leveled challenges + level builder + golf.
 
 ## Product
 
-**Name:** learnOwnership  
+**Name:** learnRust  
 **One job:** make Rust's invisible memory rules visible while the learner types code.  
 **Audience:** developers hitting the borrow checker for the first time.  
 **Surface:** full-viewport client-side SPA (no backend), same posture as LGB.
 
 ### Interaction model (LGB parallel)
 
-| LGB | learnOwnership |
+| LGB | learnRust |
 | --- | --- |
 | commit tree | stack / heap / borrow graph |
 | `git commit` etc. | Rust-subset statements (`let`, move, `&`, `&mut`, `drop`, `clone`) |

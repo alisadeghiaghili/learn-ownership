@@ -1,5 +1,5 @@
 /**
- * Core domain types for the learnOwnership memory model and interpreter.
+ * Core domain types for the learnRust memory model and interpreter.
  */
 
 /** Owned value types in the teaching subset. */

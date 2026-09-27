@@ -1,5 +1,5 @@
 {
-  "name": "learn-ownership",
+  "name": "learn-rust",
   "version": "0.1.0",
   "private": true,
   "description": "An interactive Rust ownership and borrowing visualizer and tutorial",

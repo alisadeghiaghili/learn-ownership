@@ -1,5 +1,5 @@
 /**
- * Entry point for learnOwnership.
+ * Entry point for learnRust.
  */
 
 import './styles/main.css';

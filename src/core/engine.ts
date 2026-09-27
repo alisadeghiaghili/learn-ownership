@@ -91,7 +91,7 @@ export function loadSandbox(): Session {
 
 function loadSolved(): Set<string> {
   try {
-    const raw = localStorage.getItem('learnOwnership.solved');
+    const raw = localStorage.getItem('learnRust.solved');
     if (!raw) return new Set();
     return new Set(JSON.parse(raw) as string[]);
   } catch {
@@ -101,7 +101,7 @@ function loadSolved(): Set<string> {
 
 function saveSolved(solved: Set<string>): void {
   try {
-    localStorage.setItem('learnOwnership.solved', JSON.stringify([...solved]));
+    localStorage.setItem('learnRust.solved', JSON.stringify([...solved]));
   } catch {
     // ignore quota / private mode
   }
@@ -159,7 +159,7 @@ export function parseInput(raw: string): SessionCommand {
 
 function helpText(): string[] {
   return [
-    'learnOwnership — supported commands',
+    'learnRust — supported commands',
     '',
     '  code       let / assign / drop(x) / use|print|read(x) / x.push(n) / { }',
     '  levels     list level packs',
