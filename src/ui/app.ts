@@ -394,7 +394,7 @@ export function mountApp(root: HTMLElement): void {
   if (!localStorage.getItem(STORAGE_INTRO)) {
     openDialog(
       `
-      <h2>learn<span class="accent">Ownership</span></h2>
+      <h2>learn<span class="accent">Rust</span></h2>
       <p>An interactive memory visualizer for Rust ownership — sandbox first, levels when you want a scoreboard.</p>
       <p>Type statements on the left-to-bottom terminal. The schematic shows stack bindings, heap cells, and live borrows.</p>
       <div class="dialog-actions">
