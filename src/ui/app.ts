@@ -157,7 +157,7 @@ export function mountApp(root: HTMLElement): void {
       `
       <h2>How this lab <span class="accent">works</span></h2>
       <p>Type a Rust-subset statement and watch stack, heap, and borrows update.
-      Levels teach one rule at a time — same posture as learnGitBranching.</p>
+      Levels teach one rule at a time.</p>
       <ul>
         <li><code>let s = String::from("hi");</code> — bind a heap owner</li>
         <li><code>let b = a;</code> — move (or copy for <code>i32</code>/<code>bool</code>)</li>

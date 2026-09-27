@@ -1,7 +1,6 @@
 # learnRust
 
-Interactive Rust **ownership** visualizer and tutorial — structurally modeled on
-[learnGitBranching](https://github.com/pcottle/learnGitBranching): a client-side
+Interactive Rust **ownership** visualizer and tutorial: a client-side
 sandbox, a command terminal, leveled challenges, command golf, and a level builder.
 
 **Live:** https://alisadeghiaghili.github.io/learn-rust/

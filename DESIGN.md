@@ -1,7 +1,7 @@
 # DESIGN.md — learnRust
 
-Interactive Rust ownership/borrowing visualizer and tutorial, structurally modeled on
-learnGitBranching: sandbox + terminal + leveled challenges + level builder + golf.
+Interactive Rust ownership/borrowing visualizer and tutorial — sandbox + terminal +
+leveled challenges + level builder + golf.
 
 ## Product
 
